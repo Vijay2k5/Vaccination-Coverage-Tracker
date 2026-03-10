@@ -13,5 +13,7 @@ Admin Analytics Dashboard: Provides administrators with a real-time, interactive
 
 ### Tech Stack
 Frontend: React.js, Tailwind CSS
+
 Backend: Node.js, Express.js
+
 Database: PostgreSQL
