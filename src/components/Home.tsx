@@ -1,8 +1,8 @@
 import React from 'react';
-import { Syringe, FileText, BarChart3, Plus, Shield } from 'lucide-react';
+import { Syringe, FileText, BarChart3, Plus, Shield, TrendingUp } from 'lucide-react';
 
 interface HomeProps {
-  onNavigate: (view: 'register' | 'certificate' | 'dashboard' | 'records') => void;
+  onNavigate: (view: 'register' | 'certificate' | 'dashboard' | 'records' | 'prediction') => void;
 }
 
 export function Home({ onNavigate }: HomeProps) {
@@ -62,6 +62,19 @@ export function Home({ onNavigate }: HomeProps) {
           <h2 className="text-xl font-bold text-gray-900 mb-2">Admin Dashboard</h2>
           <p className="text-gray-600">
             View comprehensive statistics, coverage maps, and analytics for vaccination data.
+          </p>
+        </button>
+
+        <button
+          onClick={() => onNavigate('prediction')}
+          className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow text-left group"
+        >
+          <div className="p-3 bg-yellow-100 rounded-lg w-fit mb-4 group-hover:bg-yellow-200 transition-colors">
+            <TrendingUp className="w-8 h-8 text-yellow-600" />
+          </div>
+          <h2 className="text-xl font-bold text-gray-900 mb-2">Vaccination Prediction</h2>
+          <p className="text-gray-600">
+            Predict future vaccination trends and plan accordingly.
           </p>
         </button>
       </div>
