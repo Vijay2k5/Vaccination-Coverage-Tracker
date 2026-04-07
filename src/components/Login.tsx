@@ -103,14 +103,6 @@ export function Login() {
             </Button>
           </form>
 
-          <div className="mt-6 space-y-2">
-            <p className="text-sm text-slate-700 font-semibold">Demo Credentials:</p>
-            <div className="text-xs text-slate-600 space-y-1 bg-slate-50 p-3 rounded-md border border-slate-200">
-              <p><strong className="text-slate-700">Admin:</strong> admin@vaxtrack.com / admin123</p>
-              <p><strong className="text-slate-700">Healthcare Worker:</strong> employee@vaxtrack.com / employee123</p>
-              <p><strong className="text-slate-700">User:</strong> vijayaragavan.it23@bitsathy.ac.in / user123</p>
-            </div>
-          </div>
         </CardContent>
       </Card>
     </div>

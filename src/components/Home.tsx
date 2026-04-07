@@ -25,7 +25,7 @@ export function Home({ onNavigate }: HomeProps) {
       </div>
 
       {/* Feature Cards */}
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 gap-6">
         <button
           onClick={() => onNavigate('register')}
           className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow text-left group"
