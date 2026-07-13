@@ -1,15 +1,7 @@
 
   # Vaccination Coverage Tracker
-
-  This is a code bundle for Vaccination Coverage Tracker. The original project is available at https://www.figma.com/design/eHpZUF1YsCICLphYij3leR/Vaccination-Coverage-Tracker.
-
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
   
-Admin Analytics Dashboard: Provides administrators with a real-time, interactive heatmap and data visualization dashboard to monitor geographical vaccination coverage and identify regions needing more resources.
+To develop a comprehensive web-based vaccination management system that tracks health records, generates digital certificates, and utilizes AI/ML to predict future vaccine demand for optimal supply chain management.
 
 ### Tech Stack
 Frontend: React.js, Tailwind CSS
